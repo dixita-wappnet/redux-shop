@@ -67,3 +67,9 @@ const reducer = (state, action) => {
 - Plain JavaScript objects.
 - Have a 'type' property is typically defined as string constants.
 - The 'type' property is typically defined as string constants.
+
+# Reducers 
+
+- Specify how the app's state changes in response to actions sent to the store.
+- Function that accepts state and action as arguements, and returns the next state of the application
+- (previousState, action) => newState 
