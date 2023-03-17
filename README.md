@@ -59,3 +59,11 @@ const reducer = (state, action) => {
       }
 }
 ``` 
+
+# Actions 
+
+- The only way your application can interact with the store.
+- Carry some information from your app to the redux store.
+- Plain JavaScript objects.
+- Have a 'type' property is typically defined as string constants.
+- The 'type' property is typically defined as string constants.
